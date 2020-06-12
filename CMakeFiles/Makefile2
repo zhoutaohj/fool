@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhoutao/LinuxProject/fool
+CMAKE_SOURCE_DIR = /home/zhoutao/fool
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhoutao/LinuxProject/fool
+CMAKE_BINARY_DIR = /home/zhoutao/fool
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/ThreadTest.dir/clean
 CMakeFiles/ThreadTest.dir/all:
 	$(MAKE) -f CMakeFiles/ThreadTest.dir/build.make CMakeFiles/ThreadTest.dir/depend
 	$(MAKE) -f CMakeFiles/ThreadTest.dir/build.make CMakeFiles/ThreadTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhoutao/LinuxProject/fool/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ThreadTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zhoutao/fool/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target ThreadTest"
 .PHONY : CMakeFiles/ThreadTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ThreadTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhoutao/LinuxProject/fool/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhoutao/fool/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ThreadTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhoutao/LinuxProject/fool/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhoutao/fool/CMakeFiles 0
 .PHONY : CMakeFiles/ThreadTest.dir/rule
 
 # Convenience name for target.

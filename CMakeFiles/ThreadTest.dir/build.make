@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zhoutao/LinuxProject/fool
+CMAKE_SOURCE_DIR = /home/zhoutao/fool
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zhoutao/LinuxProject/fool
+CMAKE_BINARY_DIR = /home/zhoutao/fool
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ThreadTest.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/ThreadTest.dir/flags.make
 
 CMakeFiles/ThreadTest.dir/File.cpp.o: CMakeFiles/ThreadTest.dir/flags.make
 CMakeFiles/ThreadTest.dir/File.cpp.o: File.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/LinuxProject/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ThreadTest.dir/File.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/File.cpp.o -c /home/zhoutao/LinuxProject/fool/File.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ThreadTest.dir/File.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/File.cpp.o -c /home/zhoutao/fool/File.cpp
 
 CMakeFiles/ThreadTest.dir/File.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ThreadTest.dir/File.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/LinuxProject/fool/File.cpp > CMakeFiles/ThreadTest.dir/File.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/fool/File.cpp > CMakeFiles/ThreadTest.dir/File.cpp.i
 
 CMakeFiles/ThreadTest.dir/File.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThreadTest.dir/File.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/LinuxProject/fool/File.cpp -o CMakeFiles/ThreadTest.dir/File.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/fool/File.cpp -o CMakeFiles/ThreadTest.dir/File.cpp.s
 
 CMakeFiles/ThreadTest.dir/MutexLock.cpp.o: CMakeFiles/ThreadTest.dir/flags.make
 CMakeFiles/ThreadTest.dir/MutexLock.cpp.o: MutexLock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/LinuxProject/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ThreadTest.dir/MutexLock.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/MutexLock.cpp.o -c /home/zhoutao/LinuxProject/fool/MutexLock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ThreadTest.dir/MutexLock.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/MutexLock.cpp.o -c /home/zhoutao/fool/MutexLock.cpp
 
 CMakeFiles/ThreadTest.dir/MutexLock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ThreadTest.dir/MutexLock.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/LinuxProject/fool/MutexLock.cpp > CMakeFiles/ThreadTest.dir/MutexLock.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/fool/MutexLock.cpp > CMakeFiles/ThreadTest.dir/MutexLock.cpp.i
 
 CMakeFiles/ThreadTest.dir/MutexLock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThreadTest.dir/MutexLock.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/LinuxProject/fool/MutexLock.cpp -o CMakeFiles/ThreadTest.dir/MutexLock.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/fool/MutexLock.cpp -o CMakeFiles/ThreadTest.dir/MutexLock.cpp.s
 
 CMakeFiles/ThreadTest.dir/Thread.cpp.o: CMakeFiles/ThreadTest.dir/flags.make
 CMakeFiles/ThreadTest.dir/Thread.cpp.o: Thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/LinuxProject/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ThreadTest.dir/Thread.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/Thread.cpp.o -c /home/zhoutao/LinuxProject/fool/Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ThreadTest.dir/Thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/Thread.cpp.o -c /home/zhoutao/fool/Thread.cpp
 
 CMakeFiles/ThreadTest.dir/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ThreadTest.dir/Thread.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/LinuxProject/fool/Thread.cpp > CMakeFiles/ThreadTest.dir/Thread.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/fool/Thread.cpp > CMakeFiles/ThreadTest.dir/Thread.cpp.i
 
 CMakeFiles/ThreadTest.dir/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThreadTest.dir/Thread.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/LinuxProject/fool/Thread.cpp -o CMakeFiles/ThreadTest.dir/Thread.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/fool/Thread.cpp -o CMakeFiles/ThreadTest.dir/Thread.cpp.s
 
 CMakeFiles/ThreadTest.dir/ThreadPool.cpp.o: CMakeFiles/ThreadTest.dir/flags.make
 CMakeFiles/ThreadTest.dir/ThreadPool.cpp.o: ThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/LinuxProject/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ThreadTest.dir/ThreadPool.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/ThreadPool.cpp.o -c /home/zhoutao/LinuxProject/fool/ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ThreadTest.dir/ThreadPool.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/ThreadPool.cpp.o -c /home/zhoutao/fool/ThreadPool.cpp
 
 CMakeFiles/ThreadTest.dir/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ThreadTest.dir/ThreadPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/LinuxProject/fool/ThreadPool.cpp > CMakeFiles/ThreadTest.dir/ThreadPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/fool/ThreadPool.cpp > CMakeFiles/ThreadTest.dir/ThreadPool.cpp.i
 
 CMakeFiles/ThreadTest.dir/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThreadTest.dir/ThreadPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/LinuxProject/fool/ThreadPool.cpp -o CMakeFiles/ThreadTest.dir/ThreadPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/fool/ThreadPool.cpp -o CMakeFiles/ThreadTest.dir/ThreadPool.cpp.s
 
 CMakeFiles/ThreadTest.dir/ThreadTest.cpp.o: CMakeFiles/ThreadTest.dir/flags.make
 CMakeFiles/ThreadTest.dir/ThreadTest.cpp.o: ThreadTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/LinuxProject/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ThreadTest.dir/ThreadTest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/ThreadTest.cpp.o -c /home/zhoutao/LinuxProject/fool/ThreadTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ThreadTest.dir/ThreadTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/ThreadTest.cpp.o -c /home/zhoutao/fool/ThreadTest.cpp
 
 CMakeFiles/ThreadTest.dir/ThreadTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ThreadTest.dir/ThreadTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/LinuxProject/fool/ThreadTest.cpp > CMakeFiles/ThreadTest.dir/ThreadTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/fool/ThreadTest.cpp > CMakeFiles/ThreadTest.dir/ThreadTest.cpp.i
 
 CMakeFiles/ThreadTest.dir/ThreadTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThreadTest.dir/ThreadTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/LinuxProject/fool/ThreadTest.cpp -o CMakeFiles/ThreadTest.dir/ThreadTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/fool/ThreadTest.cpp -o CMakeFiles/ThreadTest.dir/ThreadTest.cpp.s
 
 CMakeFiles/ThreadTest.dir/cond_variable.cpp.o: CMakeFiles/ThreadTest.dir/flags.make
 CMakeFiles/ThreadTest.dir/cond_variable.cpp.o: cond_variable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/LinuxProject/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ThreadTest.dir/cond_variable.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/cond_variable.cpp.o -c /home/zhoutao/LinuxProject/fool/cond_variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhoutao/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ThreadTest.dir/cond_variable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ThreadTest.dir/cond_variable.cpp.o -c /home/zhoutao/fool/cond_variable.cpp
 
 CMakeFiles/ThreadTest.dir/cond_variable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ThreadTest.dir/cond_variable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/LinuxProject/fool/cond_variable.cpp > CMakeFiles/ThreadTest.dir/cond_variable.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhoutao/fool/cond_variable.cpp > CMakeFiles/ThreadTest.dir/cond_variable.cpp.i
 
 CMakeFiles/ThreadTest.dir/cond_variable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ThreadTest.dir/cond_variable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/LinuxProject/fool/cond_variable.cpp -o CMakeFiles/ThreadTest.dir/cond_variable.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhoutao/fool/cond_variable.cpp -o CMakeFiles/ThreadTest.dir/cond_variable.cpp.s
 
 # Object files for target ThreadTest
 ThreadTest_OBJECTS = \
@@ -155,7 +155,7 @@ ThreadTest: CMakeFiles/ThreadTest.dir/ThreadTest.cpp.o
 ThreadTest: CMakeFiles/ThreadTest.dir/cond_variable.cpp.o
 ThreadTest: CMakeFiles/ThreadTest.dir/build.make
 ThreadTest: CMakeFiles/ThreadTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhoutao/LinuxProject/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ThreadTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhoutao/fool/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ThreadTest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ThreadTest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/ThreadTest.dir/clean:
 .PHONY : CMakeFiles/ThreadTest.dir/clean
 
 CMakeFiles/ThreadTest.dir/depend:
-	cd /home/zhoutao/LinuxProject/fool && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhoutao/LinuxProject/fool /home/zhoutao/LinuxProject/fool /home/zhoutao/LinuxProject/fool /home/zhoutao/LinuxProject/fool /home/zhoutao/LinuxProject/fool/CMakeFiles/ThreadTest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zhoutao/fool && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zhoutao/fool /home/zhoutao/fool /home/zhoutao/fool /home/zhoutao/fool /home/zhoutao/fool/CMakeFiles/ThreadTest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ThreadTest.dir/depend
 
